@@ -11,7 +11,7 @@
     "dev": "next dev -p 8000 & npx next-video sync -w",
     "build": "npm run wait && next build && npx next-video sync -w",
     "wait": "node script/awaitBackendReady.js",
-    "start": "next start",
+    "start": "next start && npx next-video sync -w",
     "lint": "next lint",
     "cypress": "cypress open",
     "analyze": "ANALYZE=true next build"
