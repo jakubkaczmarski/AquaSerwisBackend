@@ -5,18 +5,21 @@ import { listRegions } from "@lib/data"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import CartButton from "@modules/layout/components/cart-button"
 import SideMenu from "@modules/layout/components/side-menu"
-
+import Logo from "./logo"
 export default async function Nav() {
   const regions = await listRegions().then((regions) => regions)
 
   return (
-    <div className="sticky top-0 inset-x-0 z-50 group">
+    <div className="sticky top-0 inset-x-0 z-50 group ">
       <header className="relative h-16 mx-auto border-b duration-200 bg-white border-ui-border-base">
         <nav className="content-container txt-xsmall-plus text-ui-fg-subtle flex items-center justify-between w-full h-full text-small-regular">
           <div className="flex-1 basis-0 h-full flex items-center">
-            <div className="h-full">
-              <SideMenu regions={regions} />
-            </div>
+            <LocalizedClientLink
+              href="/"
+              className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
+            >
+              <Logo />
+            </LocalizedClientLink>
           </div>
 
           <div className="flex items-center h-full">
@@ -24,7 +27,7 @@ export default async function Nav() {
               href="/"
               className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
             >
-              Medusa Store
+              Aqua Serwis System
             </LocalizedClientLink>
           </div>
 
@@ -36,14 +39,14 @@ export default async function Nav() {
                   href="/search"
                   scroll={false}
                 >
-                  Search
+                  Szukaj
                 </LocalizedClientLink>
               )}
               <LocalizedClientLink
                 className="hover:text-ui-fg-base"
                 href="/account"
               >
-                Account
+                Konto
               </LocalizedClientLink>
             </div>
             <Suspense
@@ -52,12 +55,15 @@ export default async function Nav() {
                   className="hover:text-ui-fg-base flex gap-2"
                   href="/cart"
                 >
-                  Cart (0)
+                  Koszyk (0)
                 </LocalizedClientLink>
               }
             >
               <CartButton />
             </Suspense>
+            <div className="h-full">
+              <SideMenu regions={regions} />
+            </div>
           </div>
         </nav>
       </header>

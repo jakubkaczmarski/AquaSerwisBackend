@@ -8,7 +8,7 @@
     "medusa-storefront"
   ],
   "scripts": {
-    "dev": "next dev -p 8000",
+    "dev": "next dev -p 8000 & npx next-video sync -w",
     "build": "npm run wait && next build",
     "wait": "node script/awaitBackendReady.js",
     "start": "next start",
@@ -34,10 +34,12 @@
     "@paypal/react-paypal-js": "^7.8.1",
     "@stripe/react-stripe-js": "^1.7.2",
     "@stripe/stripe-js": "^1.29.0",
+    "@vidstack/react": "^1.10.9",
     "algoliasearch": "^4.20.0",
     "lodash": "^4.17.21",
     "medusa-react": "^9.0.0",
     "next": "^14.0.0",
+    "next-video": "^0.16.2",
     "react": "^18.2.0",
     "react-country-flag": "^3.0.2",
     "react-dom": "^18.2.0",
