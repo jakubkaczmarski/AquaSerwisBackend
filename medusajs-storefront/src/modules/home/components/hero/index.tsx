@@ -1,6 +1,6 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
-import Video from "next-video"
+import Video from "next-Video"
 import videoLoop from "../../../../../videos/video.mp4"
 
 // import image from "../../../../../videos/delivery-man-show-ok-sign-front-cargo-van-delivering-bottles-water.jpg"
