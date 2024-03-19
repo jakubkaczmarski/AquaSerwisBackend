@@ -1,3 +1,5 @@
+// video.d.ts
+/// <reference types="next-video/video-types/global" />
 {
   "compilerOptions": {
     "allowUnusedLabels": true,
@@ -31,6 +33,7 @@
   "include": [
     "video.d.ts",
     "next-env.d.ts",
+    "/* ... */ ",
     "**/*.ts",
     "**/*.tsx",
     "cypress/support/index.js",
@@ -48,3 +51,4 @@
     "jest-coverage"
   ]
 }
+
