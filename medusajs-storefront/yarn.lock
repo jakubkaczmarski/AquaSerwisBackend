@@ -7692,7 +7692,7 @@ neo-async@^2.6.2:
 
 next-video@^0.16.2:
   version "0.16.2"
-  resolved "https://registry.npmjs.org/next-video/-/next-video-0.16.2.tgz"
+  resolved "https://registry.yarnpkg.com/next-video/-/next-video-0.16.2.tgz#d759090865e7ae08efca7d970e60c553bf278ea5"
   integrity sha512-Ot0n2gKKq0VDKquIc4n3m4YFfByL42Vzb7TSaHskqgVjxvom1MvnMYQgeBtBN+Iv4nfLaTJ3zyEiqGEI1e+BOA==
   dependencies:
     "@aws-sdk/client-s3" "~3.437.0"

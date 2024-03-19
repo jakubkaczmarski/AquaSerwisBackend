@@ -20,7 +20,6 @@
     "webpack": "^5",
     "@types/react": "17.0.40"
   },
-
   "dependencies": {
     "@headlessui/react": "^1.6.1",
     "@heroicons/react": "^2.1.1",
