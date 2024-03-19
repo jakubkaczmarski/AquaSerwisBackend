@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "dev": "next dev -p 8000 & npx next-video sync -w",
-    "build": "npm run wait && next build",
+    "build": "npm run wait && npm install next-video && next build",
     "wait": "node script/awaitBackendReady.js",
     "start": "next start",
     "lint": "next lint",
@@ -20,6 +20,7 @@
     "webpack": "^5",
     "@types/react": "17.0.40"
   },
+  
   "dependencies": {
     "@headlessui/react": "^1.6.1",
     "@heroicons/react": "^2.1.1",
