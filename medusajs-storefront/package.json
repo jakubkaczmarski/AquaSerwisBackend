@@ -41,7 +41,7 @@
     "lodash": "^4.17.21",
     "medusa-react": "^9.0.0",
     "next": "^14.0.0",
-    "next-video": "^0.16.2",
+    "next-video": "^0.16.2",  
     "react": "^18.2.0",
     "react-country-flag": "^3.0.2",
     "react-dom": "^18.2.0",
@@ -70,11 +70,5 @@
     "tailwindcss": "^3.0.23",
     "typescript": "^5.3.2",
     "next-video": "^0.16.2"
-  },
-  "exports": {
-    ".": "./index.js",
-    "./*": "./*.js",
-    "./font/*": "./font/*/index.js",
-    "./dist/*": "./dist/*/index.js"
   }
 }
