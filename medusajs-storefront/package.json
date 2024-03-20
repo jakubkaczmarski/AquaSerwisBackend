@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "dev": "next dev -p 8000 & npx next-video sync -w",
-    "build": "npm run wait && next build && npx next-video sync -w",
+    "build": "npm run wait && next build",
     "wait": "node script/awaitBackendReady.js",
     "start": "next start && npx next-video sync -w",
     "lint": "next lint",
