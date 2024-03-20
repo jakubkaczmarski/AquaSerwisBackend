@@ -1,7 +1,7 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
-import Video from "next-video"
-import videoLoop from "../../../../../videos/video.mp4"
+// import Video from "next-video"
+// import videoLoop from "../../../../../videos/video.mp4"
 const Hero = () => {
   return (
     <>
@@ -82,7 +82,7 @@ const Hero = () => {
         </div>
       </section>
       <section>
-        <Video
+        {/* <Video
           src={videoLoop}
           autoPlay
           muted
@@ -90,7 +90,7 @@ const Hero = () => {
           playsInline
           controls={false}
           className
-        />
+        /> */}
       </section>
       <div className="h-[75vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle">
         <div className="h-[50vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle"></div>
