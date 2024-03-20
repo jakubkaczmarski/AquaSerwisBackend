@@ -26,9 +26,7 @@ export default async function Nav() {
             <LocalizedClientLink
               href="/"
               className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
-            >
-              Aqua Serwis System
-            </LocalizedClientLink>
+            ></LocalizedClientLink>
           </div>
 
           <div className="flex items-center gap-x-6 h-full flex-1 basis-0 justify-end">
