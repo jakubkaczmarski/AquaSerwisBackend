@@ -63,7 +63,7 @@ const Hero = () => {
             {/* <!-- Image Div --> */}
             <div className="relative left-4 h-full max-h-[562px] w-[85%] overflow-visible md:left-0 md:w-[95%] lg:w-full">
               <img
-                src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63915d1cb654acd795a72b12_magicpattern-ixxjruC7Gg4-unsplash.jpg"
+                src="https://i.ibb.co/ykZvRP2/delivery-man-show-ok-sign-front-cargo-van-delivering-bottles-water.jpg"
                 alt=""
                 className="mx-auto block h-full w-full max-w-[800px] rounded-2xl object-cover"
               />
@@ -72,11 +72,11 @@ const Hero = () => {
                 href="#"
                 className="absolute bottom-auto left-[50%] right-auto top-1/2 inline-block max-w-full object-contain font-bold text-[#1353fe] max-[767px]:-translate-x-1/2 max-[767px]:-translate-y-1/2 md:bottom-[-48px] md:left-[-48px] md:right-auto md:top-auto"
               >
-                <img
+                {/* <img
                   src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639058b0726dee9a8efa473f_Frame%20427322569.svg"
                   alt=""
                   className="inline-block"
-                />
+                /> */}
               </a>
             </div>
           </div>
